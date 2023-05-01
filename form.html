@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+     body{  
+        text-align: center; 
+        font-size: bold;  
+         font-size: 20px;     
+       color: green; 
+                   } 
+</style>
+
+<body>
+    <h2>This is HTML form table</h2>
+    <form action="backend.java">
+        <label for="name">Name</label>
+        <div>
+             <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <label for="gmail">Email id</label>
+        <div>
+            <input type="email" name="myEmale" id="gmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" value="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" value="myBonus">
+        </div>
+        <br>
+        <div>
+            are you 18+: <input type="checkbox" value="myEligiblity">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">Other <input
+                type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            <label for="age">Write about yourself</label>
+            <br> <textarea name="myText" cols="30" rows="10" id="age"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <br>
+        <div>
+
+            <label for="car">car:</label>
+            <select name="myCar" id="car">
+                <option value="BMW"> BMW</option>
+                <option value="Farari">Farari</option>
+                <option value="Shift">Shift</option>
+                <option value="Farari">Farari</option>
+            </select>
+
+        </div>
+        
+
+    </form>
+</body>
+
+</html>
