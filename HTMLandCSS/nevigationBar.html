@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevigation Bar</title>
+    <style>
+        .navbar {
+            background-color: rgb(74, 66, 66);
+            border-radius: 23px;
+
+
+        }
+
+        .navbar {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 0px 11px;
+            margin-bottom: 20px;
+
+        }
+
+        .navbar li a {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 11px 30px;
+            color: white;
+
+        }
+
+        .search {
+            float: right;
+            margin: 1px 100px;
+            border-radius: 10px;
+        }
+
+        .navbar input {
+            border-radius: 10px;
+            padding: 2px 11px;
+        }
+
+        body {
+            background-image: url(bgim.jpg);
+            background-size: 2000px 1300px;
+            background-repeat: no-repeat;
+
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        .course a {
+            background-color: aqua;
+
+            font-size: 60px;
+            margin-top: 150px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        .course2{
+            font-size: 20px;
+            margin-left: 80px;
+            margin-top: 30px;
+            line-height: 1.8;
+            color: rgb(255, 0, 217);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a>HOME</a></li>
+            <li><a>COURSE</a></li>
+            <li><a>ABOUT</a></li>
+            <li><a>CONTACT</a></li>
+            <div>
+                <div class="search"><input type="search" id="search" placeholder="Search"></div>
+            </div>
+        </ul>
+
+
+    </nav>
+    <div class="course">
+        <br>
+        <a>Course</a>
+    </div>
+    <div class="course2">
+
+        <a href="java.html">JAVA</a><br>
+        <a href="Springboot.html">Spring Boot</a><br>
+        <a>CSS</a><br>
+        <a>HTML</a>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
